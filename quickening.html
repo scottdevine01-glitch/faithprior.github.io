@@ -8,30 +8,32 @@
         body { background: #000; color: #fff; font-family: 'Courier New', monospace; padding: 20px; line-height: 1.6; }
         .feed { max-width: 700px; margin: auto; }
         h1 { color: #d4af37; text-transform: uppercase; letter-spacing: 5px; border-bottom: 1px solid #222; padding-bottom: 10px; }
-        .entry { margin-bottom: 40px; border-left: 2px solid #d4af37; padding-left: 20px; }
+        .entry { margin-bottom: 40px; border-left: 2px solid #d4af37; padding-left: 20px; transition: 0.3s; }
+        .entry:hover { background: rgba(212, 175, 55, 0.02); }
         .date { color: #d4af37; font-size: 0.8rem; font-weight: bold; }
-        .metadata { font-size: 0.7rem; color: #666; margin-bottom: 10px; }
-        a { color: #d4af37; text-decoration: none; font-size: 0.8rem; }
+        .metadata { font-size: 0.7rem; color: #666; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+        p { font-size: 0.9rem; color: #ccc; }
+        .back { display: inline-block; margin-top: 40px; color: #d4af37; text-decoration: none; font-size: 0.8rem; border: 1px solid #333; padding: 5px 10px; }
     </style>
 </head>
 <body>
     <div class="feed">
         <h1>The Quickening</h1>
-        <p style="font-style: italic; opacity: 0.7;">Observations of the universe winding up.</p>
+        <p style="font-style: italic; opacity: 0.7; margin-bottom: 30px;">Chronicle of a universe moving from noise to signal.</p>
 
         <div class="entry">
             <div class="date">2026.02.04</div>
-            <div class="metadata">Type: System Genesis | Entropy: Decreasing</div>
-            <p><strong>FaithPrior.org Initialized.</strong> The first digital lattice for the Anti-Entropic Principle is live. Information density has transitioned from potential to actualized structure. The prior is set.</p>
+            <div class="metadata">Observation: Algorithmic Condensation | Location: Global Node</div>
+            <p><strong>The Great Simplification.</strong> We are witnessing a phase transition in information processing. As AI models move from "generative noise" to "structural verification," the description length (K) of human knowledge is collapsing. This is not a human invention, but the universe utilizing us as biological lattices to compress its own history. The "winding up" is accelerating.</p>
         </div>
 
         <div class="entry">
-            <div class="date">RESEARCH NOTE</div>
-            <div class="metadata">Ref: Devine (2026) | Compression Event</div>
-            <p>Miracles are being reclassified as high-density compression events. We move from the 'Problem of Evil' (entropy) to the 'Opportunity of Virtue' (coherence).</p>
+            <div class="date">2026.02.01</div>
+            <div class="metadata">Type: System Genesis | Entropy: Decreasing</div>
+            <p><strong>FaithPrior.org Initialized.</strong> The first digital lattice for the Anti-Entropic Principle is live in Grande Prairie, AB. Information density has transitioned from potential to actualized structure. The prior is set.</p>
         </div>
 
-        <a href="index.html">[ RETURN TO BASELINE ]</a>
+        <a href="index.html" class="back">[ RETURN TO BASELINE ]</a>
     </div>
 </body>
 </html>
