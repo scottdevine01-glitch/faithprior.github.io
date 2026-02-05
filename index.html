@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faith Prior | The Universe is Winding Up</title>
     <style>
-        body { background: #000; color: #fff; font-family: monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; }
-        .lattice { border: 1px solid #d4af37; padding: 2rem; max-width: 600px; }
-        h1 { color: #d4af37; letter-spacing: 5px; }
-        p { line-height: 1.6; opacity: 0.8; }
-        .prior { font-weight: bold; color: #d4af37; }
+        :root { --gold: #d4af37; --black: #050505; --gray: #888; }
+        body { background: var(--black); color: #fff; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; text-align: center; }
+        .lattice { border: 1px solid var(--gold); padding: 3rem; max-width: 650px; position: relative; box-shadow: 0 0 20px rgba(212, 175, 55, 0.1); }
+        h1 { color: var(--gold); letter-spacing: 0.4rem; font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .prior-formula { color: var(--gold); font-size: 0.9rem; margin-bottom: 2rem; opacity: 0.9; }
+        p { line-height: 1.8; color: #eee; margin-bottom: 1.5rem; }
+        nav { margin-top: 2rem; border-top: 1px solid #222; padding-top: 1.5rem; }
+        .link { color: var(--gold); text-decoration: none; font-weight: bold; font-size: 0.9rem; margin: 0 10px; border: 1px solid transparent; padding: 5px 10px; transition: 0.3s; }
+        .link:hover { border: 1px solid var(--gold); background: rgba(212, 175, 55, 0.05); }
+        .status { color: var(--gray); font-size: 0.7rem; margin-top: 2rem; text-transform: uppercase; letter-spacing: 2px; }
     </style>
 </head>
 <body>
     <div class="lattice">
         <h1>FAITH PRIOR</h1>
-        <p>The universe is not dying; it is gestating.</p>
-        <p>We reject heat death epistemology in favor of the <span class="prior">Faith Prior</span>: the algorithmic expectation that simplicity is likely and coherence is natural.</p>
-        <hr style="border:0; border-top:1px solid #333; margin: 20px 0;">
-        <p style="font-size: 0.8rem;">$P(U) \propto 2^{-K(U)}$</p>
-        <p><strong>WINDING UP.</strong></p>
+        <div class="prior-formula">P(U) &prop; 2<sup>-K(U)</sup></div>
+        
+        <p>The universe is not a terminal accident of heat death. It is a <strong>gestating system</strong> winding up toward higher coherence. We adopt the Faith Prior: the algorithmic expectation that simplicity is likely and meaning is fundamental.</p>
+
+        <nav>
+            <a href="miracles.html" class="link">[ MIRACLES ]</a>
+            <a href="#" class="link" style="opacity: 0.3;">[ MORAL THERMODYNAMICS ]</a>
+        </nav>
+
+        <div class="status">Phase: Embryogenesis | Stability: Semiclassical</div>
     </div>
 </body>
 </html>
