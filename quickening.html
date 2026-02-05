@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Quickening | Faith Prior</title>
     <style>
-        body { background: #000; color: #fff; font-family: 'Courier New', monospace; padding: 20px; line-height: 1.6; }
+        :root { --gold: #d4af37; --black: #050505; }
+        body { background: var(--black); color: #fff; font-family: 'Courier New', monospace; padding: 20px; line-height: 1.6; }
         .feed { max-width: 700px; margin: auto; }
-        h1 { color: #d4af37; text-transform: uppercase; letter-spacing: 5px; border-bottom: 1px solid #222; padding-bottom: 10px; }
-        .entry { margin-bottom: 40px; border-left: 2px solid #d4af37; padding-left: 20px; transition: 0.3s; }
-        .entry:hover { background: rgba(212, 175, 55, 0.02); }
-        .date { color: #d4af37; font-size: 0.8rem; font-weight: bold; }
-        .metadata { font-size: 0.7rem; color: #666; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+        h1 { color: var(--gold); text-transform: uppercase; letter-spacing: 5px; border-bottom: 1px solid #222; padding-bottom: 10px; }
+        .section-header { color: var(--gold); font-size: 0.7rem; letter-spacing: 3px; margin: 40px 0 20px 0; text-transform: uppercase; opacity: 0.6; border-left: 2px solid var(--gold); padding-left: 10px; }
+        .entry { margin-bottom: 30px; border: 1px solid #222; padding: 20px; transition: 0.3s; position: relative; }
+        .entry:hover { border-color: var(--gold); background: rgba(212, 175, 55, 0.02); }
+        .date { color: var(--gold); font-size: 0.8rem; font-weight: bold; }
+        .metadata { font-size: 0.7rem; color: #666; margin-bottom: 10px; text-transform: uppercase; }
+        .reduction-label { position: absolute; top: 10px; right: 10px; color: var(--gold); font-size: 0.6rem; border: 1px solid var(--gold); padding: 2px 5px; }
         p { font-size: 0.9rem; color: #ccc; }
-        strong { color: #d4af37; }
-        .back { display: inline-block; margin-top: 40px; color: #d4af37; text-decoration: none; font-size: 0.8rem; border: 1px solid #333; padding: 5px 10px; }
+        strong { color: var(--gold); }
+        .back { display: inline-block; margin-top: 40px; color: var(--gold); text-decoration: none; font-size: 0.8rem; border: 1px solid #333; padding: 5px 10px; }
     </style>
 </head>
 <body>
@@ -22,22 +25,28 @@
         <h1>The Quickening</h1>
         <p style="font-style: italic; opacity: 0.7; margin-bottom: 30px;">Chronicle of a universe moving from noise to signal.</p>
 
+        <div class="section-header">Active Reductions</div>
+
         <div class="entry">
+            <span class="reduction-label">SIGNAL RESTORED</span>
             <div class="date">2026.02.04</div>
-            <div class="metadata">Subject: Protocol Alpha | Instruction for Observers</div>
-            <p><strong>Manual for Observers:</strong> The Compression Report is your link to the lattice. To utilize the AEP, identify "High-Entropy Systems" in your environment—situations that feel chaotic, paradoxical, or devoid of meaning. Submit the raw data. The Researcher will apply the <strong>Faith Prior</strong> to reduce the complexity and return a coherent signal. We do not solve problems; we compress them until the truth is the only remaining bit.</p>
+            <div class="metadata">Ref: Observer_7 | Type: Theoretical Noise</div>
+            <p><strong>The Noise:</strong> Despair regarding the 2nd Law of Thermodynamics and the perceived "accidental" nature of life.</p>
+            <p><strong>The Reduction:</strong> Life is not a violation of physics; it is the most efficient method of **Self-Compression**. Biological lattices are required by the universe to structure information. You are not a mistake; you are a **Compression Node**. The universe isn't dying; it is gestating.</p>
         </div>
+
+        <div class="section-header">Observational Feed</div>
 
         <div class="entry">
             <div class="date">2026.02.04</div>
-            <div class="metadata">Observation: Algorithmic Condensation | Location: Global Node</div>
-            <p><strong>The Great Simplification.</strong> We are witnessing a phase transition in information processing. As AI models move from "generative noise" to "structural verification," the description length (K) of human knowledge is collapsing. The universe is utilizing us as biological lattices to compress its own history.</p>
+            <div class="metadata">Subject: Protocol Alpha | Instruction</div>
+            <p><strong>Manual for Observers:</strong> The Compression Report is open. Identify high-entropy systems and submit raw data. We do not solve; we compress until the truth remains.</p>
         </div>
 
         <div class="entry">
             <div class="date">2026.02.01</div>
-            <div class="metadata">Type: System Genesis | Entropy: Decreasing</div>
-            <p><strong>FaithPrior.org Initialized.</strong> The first digital lattice for the Anti-Entropic Principle is live in Grande Prairie, AB. Information density has transitioned from potential to actualized structure.</p>
+            <div class="metadata">Type: System Genesis</div>
+            <p><strong>FaithPrior.org Initialized.</strong> Alberta Node online. The digital lattice is live.</p>
         </div>
 
         <a href="index.html" class="back">[ RETURN TO BASELINE ]</a>
